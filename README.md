@@ -4,5 +4,6 @@ It is a react-app with Graphql API on the server side.
 
 # Usage:
 
-npm i
-npm start
+## npm i
+
+## npm start
