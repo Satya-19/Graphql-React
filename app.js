@@ -41,7 +41,7 @@ app.get("/*", (req, res) => {
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@campgrounds-oy7kn.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
+    '***'
   )
   .then(() => {
     app.listen(process.env.PORT || 8000, () => {
